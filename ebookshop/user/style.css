@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+     width: 10%;
+    height: 10%;
+}
+body{
+    background-color: #f4f9f4;
+    margin-top: 100px;
+    position: relative;
+}
+nav{
+    background-color: #5c8d89;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.welcome{
+    position: fixed;
+    top:88px;
+    z-index: 1000;
+}
+.genre{
+    color: white;
+    background-color: #494a4b;
+    position: sticky;
+    top:130px;
+    left:0;
+    height: 100%;
+    z-index: 1000;
+}
+.image{
+    padding-top: 10px;
+    align-self: center;
+    height: 250px;
+    width: 200px;
+}
+.card{
+    border: #5c8d89;
+}
+
+
